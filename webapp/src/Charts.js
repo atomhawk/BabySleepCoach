@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
-import eventsWithinRange from './App';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSeedling, faTree } from '@fortawesome/free-solid-svg-icons';
+//import eventsWithinRange from './App';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faSeedling, faTree } from '@fortawesome/free-solid-svg-icons';
 import * as d3 from "d3";
 import CardPane from './card';
 
@@ -97,9 +97,9 @@ const createChart = (data, rangeStart, rangeEnd) => {
     canvas.height = window.innerHeight-200;
   
     const initialRadius = 0
-    const offset = 50;
+//    const offset = 50;
 
-    let dayCount = 0;
+  //  let dayCount = 0;
     const firstDay = events[0].time;
   
     let endA;
@@ -128,7 +128,7 @@ const createChart = (data, rangeStart, rangeEnd) => {
       events.forEach((e, i) => {
         // function bruh() { // artificial delay for growing circles animation
           if(i+1 < events.length) {
-            const timeDiff = e.time.getTime() - firstDay.getTime();
+   //         const timeDiff = e.time.getTime() - firstDay.getTime();
             // dayDiff = Math.round(timeDiff / (1000 * 3600 * 24));
 
             const thisMonth = e.time.getMonth() + 1;
@@ -195,7 +195,7 @@ const denoiseSleepDataForVisualization = (sleepLogs) => {
     } else if(minutes_diff_next <= 5 || minutes_diff_prior <=  5) {
       // console.log('too short: ', minutes_diff_prior, ", ", minutes_diff_next);
       return null;
-    } else if(sleepLogs[i].awake == sleepLogs[i+1].awake) {
+    } else if(sleepLogs[i].awake === sleepLogs[i+1].awake) {
       // console.log('same');
       return null;
     }

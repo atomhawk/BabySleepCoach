@@ -11,7 +11,7 @@ updates:
   # Enable version updates for npm
   - package-ecosystem: "npm"
     # Look for `package.json` and `lock` files in the `root` directory
-    directory: "/"
+    directory: "/webapp/"
     # Check the npm registry for updates every day (weekdays)
     schedule:
       interval: "daily"
@@ -21,5 +21,13 @@ updates:
     # Look for a `Dockerfile` in the `root` directory
     directory: "/"
     # Check for updates once a week
+    schedule:
+      interval: "daily"
+
+  # Enable version updates for npm
+  - package-ecosystem: "yarn"
+    # Look for `package.json` and `lock` files in the `root` directory
+    directory: "/webapp/"
+    # Check the npm registry for updates every day (weekdays)
     schedule:
       interval: "daily"

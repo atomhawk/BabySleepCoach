@@ -991,7 +991,7 @@ def server(creepy_baby_model, frame_q, debug_frame_q, cropped_raw_frame_q, sleep
         response.headers.add('Access-Control-Allow-Methods', "*")
         return response
 
-    app.run(debug=True, use_reloader=False, port=8001, host='0.0.0.0')
+    app.run(debug=False, use_reloader=False, port=8001, host='0.0.0.0')
 
 def receive(producer_q):
     print("Start receiving frames.")

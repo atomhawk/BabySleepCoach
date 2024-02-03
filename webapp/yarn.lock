@@ -1975,19 +1975,19 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
   integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
 
-"@recogito/annotorious@^2.7.11":
-  version "2.7.11"
-  resolved "https://registry.yarnpkg.com/@recogito/annotorious/-/annotorious-2.7.11.tgz#9533a4b23ac30eedfb6d5c96cc7528f5584a801d"
-  integrity sha512-4UefSRE57gEGTtjWPSQ62rHvlZNdXbXz+Q3qtF92WOhjOqcEsaYyigy4CYBHarFW95vXWHJGuDF/CG5NRKkCjw==
+"@recogito/annotorious@^2.7.13":
+  version "2.7.13"
+  resolved "https://registry.yarnpkg.com/@recogito/annotorious/-/annotorious-2.7.13.tgz#a13673fc2eb23e771fb41f6556f6d5ed3448f1d8"
+  integrity sha512-dcNK+bCv7Mcq/KExCVDm3mfTYYGVsll5VbOg15m0IQszjq7Ra4bhponUGDrFpqingeiaZ56cQSRqygd/7RNKMQ==
   dependencies:
-    "@recogito/recogito-client-core" "1.7.8"
+    "@recogito/recogito-client-core" "1.7.9"
     preact "^10.5.13"
     tiny-emitter "^2.1.0"
 
-"@recogito/recogito-client-core@1.7.8":
-  version "1.7.8"
-  resolved "https://registry.yarnpkg.com/@recogito/recogito-client-core/-/recogito-client-core-1.7.8.tgz#a18cb4fd8217bb1e0cc41235dfcacea0c03babda"
-  integrity sha512-5WfwF3WO7WVMLv1jE27ukvR/E27T2CNWxBBU3RyZUYAzsdSpIxz5IXRKY+O9KHUhcWP0+CMPX4VNyZpORu7nhw==
+"@recogito/recogito-client-core@1.7.9":
+  version "1.7.9"
+  resolved "https://registry.yarnpkg.com/@recogito/recogito-client-core/-/recogito-client-core-1.7.9.tgz#bf772a9801de7fa3a3714b4e4894712d8b749783"
+  integrity sha512-fPkBUlNP5WDwlqPKUDLB0O6DnZQG2mtOBiS78wLJjbbyU8b8yYt8RN9VVui1gji3diCPz+oWpH22eWZTQlADlQ==
   dependencies:
     core-js "^3.18.3"
     fast-deep-equal "^3.1.3"
